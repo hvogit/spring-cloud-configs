@@ -6,11 +6,11 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class ConfigRest {
-    @Value("${lucky-word}")
-    String luckyWord;
+    @Value("${hello}")
+    String hello;
 
-    @RequestMapping("/lucky-word")
-    public String getLuckyWord() {
-        return "The lucky word is: " + luckyWord;
+    @RequestMapping("/hello")
+    public String hello() {
+        return hello;
     }
 }

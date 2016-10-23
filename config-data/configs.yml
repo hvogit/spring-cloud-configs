@@ -1,10 +1,10 @@
-lucky-word: Hello (default)
+hello: Hello (default profile)
 
 # multiple profiles in yaml, or use multiple files, e.g.: configs-dev.yml
 ---
 spring.profiles: dev
-lucky-word: Hello (dev)
+hello: Hello (dev profile)
 ---
 spring.profiles: test
-lucky-word: Hello (test)
+hello: Hello (test profile)
 
