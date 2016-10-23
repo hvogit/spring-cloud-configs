@@ -1,4 +1,6 @@
 lucky-word: Hello (default)
+
+# multiple profiles in yaml, or use multiple files, e.g.: configs-dev.yml
 ---
 spring.profiles: dev
 lucky-word: Hello (dev)
