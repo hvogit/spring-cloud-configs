@@ -1,5 +1,5 @@
 hello: Hello (default profile)
-welcome: Welcome 3 (non-overriden, any profile)
+welcome: Welcome 1 (non-overriden, any profile)
 
 # multiple profiles in yaml, or use multiple files
 # e.g.: configs-dev.yml, configs-test.yml
