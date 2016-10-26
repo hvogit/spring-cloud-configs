@@ -20,6 +20,4 @@
 		<module>config-client</module>
 	</modules>
 
-	<dependencies>
-	</dependencies>
 </project>

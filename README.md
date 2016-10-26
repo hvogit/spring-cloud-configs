@@ -5,6 +5,11 @@
 ### labs:
 * https://github.com/kennyk65/Microservices-With-Spring-Student-Files
 
+### notes:
+* searchPaths: config-data -> git folder(s) for config files
+* spring.application.name: configs -> mapped to config file name on git (configs.yml)
+* spring.profiles.active: dev -> set active profile for client in bootstrap.yml
+ 
 
 ### tests:
 ```js
@@ -15,3 +20,4 @@ curl localhost:8001/configs/[ |default|dev|test]
 curl localhost:8002
 curl localhost:8002/hello
 ```
+

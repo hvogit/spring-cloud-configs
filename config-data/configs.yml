@@ -1,6 +1,8 @@
 hello: Hello (default profile)
+welcome: Welcome (non-overriden, any profile)
 
-# multiple profiles in yaml, or use multiple files, e.g.: configs-dev.yml
+# multiple profiles in yaml, or use multiple files
+# e.g.: configs-dev.yml, configs-test.yml
 ---
 spring.profiles: dev
 hello: Hello (dev profile)

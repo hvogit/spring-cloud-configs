@@ -9,6 +9,7 @@
 	<packaging>jar</packaging>
 	<name>config-client</name>
 
+	<!--todo c/sh/ould i move parent into dependencyManagement?-->
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
