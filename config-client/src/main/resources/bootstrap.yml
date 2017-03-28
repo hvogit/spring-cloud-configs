@@ -1,4 +1,4 @@
 spring:
-  cloud.config.uri: http://localhost:8001
+  cloud.config.uri: http://localhost:8080
   application.name: configs
   profiles.active: dev

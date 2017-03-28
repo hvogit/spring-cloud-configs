@@ -1,11 +1,11 @@
 hello: Hello (default profile)
-welcome: Welcome XX (non-overriden, any profile)
+welcome: Welcome (non-overriden, any profile)
 
 # multiple profiles in yaml, or use multiple files
 # e.g.: configs-dev.yml, configs-test.yml
 ---
 spring.profiles: dev
-hello: Hello Spring Cloud Bus + ngrok Cool (dev profile)
+hello: Hello Spring Cloud (dev profile)
 ---
 spring.profiles: test
 hello: Hello (test profile)
