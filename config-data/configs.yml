@@ -5,7 +5,7 @@ welcome: Welcome XX (non-overriden, any profile)
 # e.g.: configs-dev.yml, configs-test.yml
 ---
 spring.profiles: dev
-hello: Hello Spring Cloud Bus + ngrok (dev profile)
+hello: Hello Spring Cloud Bus + ngrok Cool (dev profile)
 ---
 spring.profiles: test
 hello: Hello (test profile)
