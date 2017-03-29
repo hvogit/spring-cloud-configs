@@ -54,5 +54,8 @@ curl localhost:8081/hello ; curl localhost:8082/hello
 // test again, should see the new value in both clients
 curl localhost:8081/hello; curl localhost:8082/hello 
 
+// update readme, commit, push.
+// config-server get refreshed, but not the clients
+
 ```
 
