@@ -55,7 +55,7 @@ curl localhost:8081/hello ; curl localhost:8082/hello
 curl localhost:8081/hello; curl localhost:8082/hello 
 
 // update readme, commit, push.
-// config-server get refreshed, but not the clients
+// config-server gets refreshed, but not the clients
 
 ```
 
