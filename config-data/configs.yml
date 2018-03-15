@@ -1,4 +1,4 @@
-hello: Hello (default profile)
+hello: Hello 2018 (default profile)
 welcome: Welcome (non-overriden, any profile)
 
 # multiple profiles in yaml, or use multiple files
