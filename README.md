@@ -4,6 +4,7 @@
 
 ### refs:
 * https://cloud.spring.io/spring-cloud-config/
+* https://github.com/spring-cloud/spring-cloud-config
 * Building Microservices with Spring Cloud (https://www.youtube.com/watch?v=ZyK5QrKCbwM&t=3888s)
 * http://cloud.spring.io/spring-cloud-static/spring-cloud-config/1.3.0.RC1/#_push_notifications_and_spring_cloud_bus
 * http://zoltanaltfatter.com/2016/06/30/centralized-configuration-with-spring-cloud-config/
