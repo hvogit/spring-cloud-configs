@@ -3,6 +3,7 @@
 ![diagram](diagram.png)
 
 ### refs:
+* https://cloud.spring.io/spring-cloud-config/
 * Building Microservices with Spring Cloud (https://www.youtube.com/watch?v=ZyK5QrKCbwM&t=3888s)
 * http://cloud.spring.io/spring-cloud-static/spring-cloud-config/1.3.0.RC1/#_push_notifications_and_spring_cloud_bus
 * http://zoltanaltfatter.com/2016/06/30/centralized-configuration-with-spring-cloud-config/
@@ -13,8 +14,7 @@
 * `searchPaths`: config-data -> git folder(s) for config files
 * `spring.application.name`: configs -> mapped to config file name on git (configs.yml)
 * `spring.profiles.active`: dev -> set active profile for client in `bootstrap.yml` or commandline.
-* run rabbitmq-server 
-. web ui: localhost:15672 (guest/guest)
+* rabbitmq-server web ui: localhost:15672 (guest/guest)
 * ngrok.io: http tunneling, exposing local server to public (internet) 
  
 
@@ -51,8 +51,8 @@ curl localhost:808[1-2]/[|welcome|hello]
 
 // update config value, commit, push.
 //   github webhook -> xxx.ngrok.io/monitor -> config-server (local) reloads configs
-//   -> notices rabbitmp-server -> notice 2 clients 
-//   -> eventually, 2 clients also pull new configs from the config-server 
+//   -> notifies rabbitmp-server -> notifies 2 clients 
+//   -> eventually, 2 clients pull new configs from the config-server 
 
 // test again, should see the new value in both clients
 curl localhost:808[1-2]/[|welcome|hello]
